@@ -1,4 +1,7 @@
 /* Inicio */
+html{
+    font-family: 'Montserrat', sans-serif;
+}
 .main_inicio{
     background-image: url("imagenes/Secciones/Inicio/imagenPrincipal.jpeg");
     background-repeat: no-repeat;
@@ -41,4 +44,53 @@
     padding-bottom: 25px;
     color: #27AEFD;
     font-size: 20px;
+}
+
+
+/* Quienes somos? */
+.fondo__verde{
+    width: 90%;
+    background-color: #A5DF2A;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+.fondo__imagen{
+    top: 0;
+    left: 0;
+    background-image: url("imagenes/Secciones/Quienes somos/foto-quienes-somos.png");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    padding-bottom: 350px;
+    background-position: center;
+}
+.fondo__verde p{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 250px;
+}
+
+.fondo__verde p strong{
+    padding-right: 20px;
+}
+
+.section__quienesSomos img{
+    display: flex;
+    align-self: center;
+}
+.card__quienesSomos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(144, 144, 144);
+    text-align: left;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 12px;   
+    box-shadow: 25px, 25px, 25px, 25px, rgba(0, 0, 0, .5);
 }
