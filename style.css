@@ -1,0 +1,44 @@
+/* Inicio */
+.main_inicio{
+    background-image: url("imagenes/Secciones/Inicio/imagenPrincipal.jpeg");
+    background-repeat: no-repeat;
+    background-size: 90% 1000px;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 350px;
+    align-self: center;
+}
+.container__inicio{
+    background: rgba(243, 243, 243, 0.7) ;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 350px;
+    padding-top: 45px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+.titulo__main{
+    padding: 20px;
+}
+.btn__capacitate{
+    width: 180px;
+    height: 40px;
+    background: rgb(194,193,58);
+    background: linear-gradient(90deg, rgba(195,227,44,1) 0%, rgba(129,211,139,1) 34%, rgba(52,192,250,1) 85%);
+    border: none;
+    color: white;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.link__inicio{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #27AEFD;
+    font-size: 20px;
+}
